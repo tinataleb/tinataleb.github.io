@@ -351,8 +351,10 @@ section#contact ul li a img
     margin-bottom: 6.75px;
 }
 
-a
-{
+.link a{
     text-decoration: none;
 }
 
+.link h2:hover{
+    color: red;
+}
