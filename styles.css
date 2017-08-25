@@ -329,6 +329,11 @@ section#contact ul li a img
     padding-left: 30%;
 }
 
+.page-content
+{
+    overflow: hidden;
+}
+
 .page-content h1
 {
     margin-top: 13px;
@@ -351,10 +356,35 @@ section#contact ul li a img
     margin-bottom: 6.75px;
 }
 
-.link a{
+.link a
+{
     text-decoration: none;
 }
 
-.link h2:hover{
-    color: red;
+.link h2:hover
+{
+    color: #d4d4d4;
+    text-shadow: #000 0px 0px 1em;
+}
+
+.linkhub img
+{
+    float: left;
+    width: 100%; 
+    margin: 0px 2% 0px 2%;
+    align-content: center;
+    overflow: hidden;
+}
+
+.linkhub
+{
+    align-content: center;
+    padding-left: 42%;
+}
+
+#email
+{
+    overflow: hidden;
+    display: block;
+    width: 100%;
 }
