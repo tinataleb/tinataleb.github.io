@@ -1,0 +1,25 @@
+<div id="map">
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.8879169587085!2d-117.30511648550862!3d33.190811070079654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc7164e23eb48d%3A0x4dfd3db11a86a50f!2sMiraCosta+College!5e0!3m2!1sen!2sus!4v1444869019661" height="200%" width="30%"></iframe>
+                </div>
+                <div id="form">
+                    <form action="formToEmail.php" method="post">
+                        <div>
+                            <label for="nameIn">Your    Name:</label>
+                            <input name="nameIn" type="text">
+                        </div>
+                        <div>
+                            <label for="phoneIn">Phone Number:</label>
+                            <input name="phoneIn" type="text">
+                        </div>
+                        <div>
+                            <label for="emailIn">Email Address: </label>
+                            <input name="emailIn" type="text">
+                        </div>
+                    </form>
+
+                    <form>
+                        <label for="message">Your Message:</label>
+                        <textarea></textarea>
+                        <input value="Send" type="submit">
+                    </form>
+                </div>

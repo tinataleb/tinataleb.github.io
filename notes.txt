@@ -1,0 +1,26 @@
+photoshop:
+
+file 
+export
+export as
+jpg(lossy)
+
+
+
+
+(lossless)
+png 8 big, gif, indexed color files
+png 24 default, standard
+png 24 rgb
+does not support compression
+png 32 opacity
+
+
+
+
+
+
+<link rel="stylesheet" href = "..../lightbox.min.css">
+
+data box: naming the gallery
+data title: name of image/message
