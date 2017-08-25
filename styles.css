@@ -351,3 +351,8 @@ section#contact ul li a img
     margin-bottom: 6.75px;
 }
 
+a
+{
+    text-decoration: none;
+}
+
