@@ -86,22 +86,27 @@ img.underline
     background-color: rgba(74, 209, 138, 0.5);  
 }
 
+#projects
+{
+    background-color: rgba(176, 213, 31, 0.5); 
+}
+
 /*-----AWARDS RULES-----*/
 #awards
 {
-    background-color: rgba(176, 80, 138, 0.5); 
+    background-color: rgba(176, 80, 31, 0.5); 
 }
 
 /*-----EXPERIENCE RULES-----*/
 #experience
 {
-    background-color: rgba(176, 80, 31, 0.5); 
+    background-color: rgba(176, 80, 138, 0.5);
 }
 
 /*-----CONTACT RULES-----*/
 #contact
 {
-    background-color: rgba(176, 213, 31, 0.5); 
+    
 }
 
 /*-----NAV RULES-----*/
@@ -363,6 +368,18 @@ section#contact ul li a img
 }
 
 .link h2:hover
+{
+    color: #d4d4d4;
+    text-shadow: #000 0px 0px 1em;
+}
+
+.nand 
+{
+    text-decoration: none;
+    color: #303030;
+}
+
+.nand:hover
 {
     color: #d4d4d4;
     text-shadow: #000 0px 0px 1em;
