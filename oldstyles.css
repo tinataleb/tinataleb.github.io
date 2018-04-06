@@ -389,31 +389,31 @@ section#contact ul li a img
     width: 100%;
 }
 
-
-/* Container for skill bars */
-div.container {
-    box-sizing:border-box
-    width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
+#skillDesign span {
+    top: -30px;
+    left: 2%;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: #eee;
 }
 
-div.skills {
-    text-align: right; /* Right-align text */
-    padding-right: 20px; /* Add some right padding */
-    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: white; /* White text color */
+#skillDesign progress {
+    background-color: #f3f3f3;
+    border: 0;
+    height: 2.5em;
+    width: 100%;
+    background-color: #000;
 }
 
-.html {
-    text-align: right; /* Right-align text */
-    padding-right: 20px; /* Add some right padding */
-    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: white; /* White text color */
-    width: 90%; background-color: #4CAF50;} /* Green */
-div.skills.css {width: 80%; background-color: #2196F3;} /* Blue */
-div.skills.js {width: 65%; background-color: #f44336;} /* Red */
-div.skills.java {width: 60%; background-color: #808080;} /* Dark Grey */
-div.skills.py {width: 90%; background-color: #4CAF50;} /* Green */
-div.skills.scheme {width: 80%; background-color: #2196F3;} /* Blue */
-div.skills.cpp {width: 65%; background-color: #f44336;} /* Red */
-div.skills.sql {width: 60%; background-color: #808080;} /* Dark Grey */
+#skillDesign progress::-webkit-progress-bar {
+    background-color: #000;
+}
+
+#skillDesign progress::-webkit-progress-value {
+    background-color: #329ad1;
+}
+
+progress::-moz-progress-bar {
+    background-color: #329ad1;
+}

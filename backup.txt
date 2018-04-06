@@ -1,0 +1,28 @@
+
+/* Container for skill bars */
+div.container {
+    box-sizing:border-box
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+div.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+    width: 90%; background-color: #4CAF50;} /* Green */
+div.skills.css {width: 80%; background-color: #2196F3;} /* Blue */
+div.skills.js {width: 65%; background-color: #f44336;} /* Red */
+div.skills.java {width: 60%; background-color: #808080;} /* Dark Grey */
+div.skills.py {width: 90%; background-color: #4CAF50;} /* Green */
+div.skills.scheme {width: 80%; background-color: #2196F3;} /* Blue */
+div.skills.cpp {width: 65%; background-color: #f44336;} /* Red */
+div.skills.sql {width: 60%; background-color: #808080;} /* Dark Grey */
